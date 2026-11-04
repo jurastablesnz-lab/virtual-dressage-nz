@@ -125,3 +125,8 @@ footer{background:var(--mid)}.ftag{display:none}
 .banner::before{background:radial-gradient(ellipse 60% 55% at 50% 50%,rgba(11,16,32,.7),transparent 80%),linear-gradient(135deg,rgba(11,16,32,.78),rgba(124,92,255,.32) 60%,rgba(46,242,194,.14)),linear-gradient(var(--mid),transparent 18%,transparent 75%,var(--mid))}
 .bline{text-shadow:0 4px 30px rgba(0,0,0,.6)}
 .tag.live{background:rgba(46,242,194,.12);color:var(--mint);border-color:rgba(46,242,194,.5);text-transform:uppercase;letter-spacing:.14em}
+
+nav .logo .prod{margin-left:4px;padding:3px 9px;border-radius:999px;border:1px solid rgba(46,242,194,.35);font-size:.82rem;letter-spacing:-.01em;color:#fff}nav .logo .prod b{color:var(--mint)}
+.hero-word{display:block;height:56px;width:auto;margin:0 0 14px}
+.fword{width:min(520px,92%);border-radius:14px}
+@media(max-width:600px){.hero-word{height:42px}nav .logo .prod{font-size:.72rem;padding:2px 7px}}

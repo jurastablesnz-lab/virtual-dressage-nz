@@ -65,3 +65,4 @@ footer{background:#0b1328;color:#aab;padding:28px 0;font-size:.85rem;text-align:
 .plan ul{padding-left:1.1em;font-size:.92rem}.price small{font-size:.9rem}
 .faq{max-width:760px}.faq details{background:#fff;border-radius:12px;padding:16px 20px;margin:10px 0}.faq summary{cursor:pointer;font-weight:600;color:var(--navy)}
 @media(max-width:960px){.plans{grid-template-columns:1fr 1fr}}@media(max-width:600px){.plans{grid-template-columns:1fr}}
+.plan.featured .tag{background:var(--gold);color:var(--navy)}

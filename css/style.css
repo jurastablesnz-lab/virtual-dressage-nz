@@ -90,7 +90,7 @@ section:not(.dark) .btn.ghost{color:var(--navy)}
 .bline,.gcap,.strip figcaption,.gold,.ch-num{font-style:normal}
 .hero h1 em{font-style:normal}
 nav .logo img{height:44px;display:block}
-.hero-mark{width:84px;height:84px;margin-bottom:18px;border-radius:20px;box-shadow:0 0 0 1px rgba(46,242,194,.25),0 12px 30px rgba(0,0,0,.4)}
+.hero-mark{width:132px;height:132px;margin-bottom:18px;border-radius:20px;box-shadow:0 0 0 1px rgba(46,242,194,.25),0 12px 30px rgba(0,0,0,.4)}
 .tagline{font-family:Inter;font-weight:600;letter-spacing:.28em;font-size:.8rem;color:var(--gold);margin:4px 0 14px}
 nav .wrap{max-width:1360px}nav ul{gap:18px;white-space:nowrap}nav ul a{font-size:.86rem}
 nav .logo{display:flex;align-items:center;gap:10px;font-family:Archivo;font-weight:800;color:#fff;font-size:1.15rem;white-space:nowrap}nav .logo img{height:38px;border-radius:9px}nav .logo span span{color:var(--gold)}

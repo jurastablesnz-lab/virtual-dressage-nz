@@ -71,3 +71,4 @@ footer{background:#0b1328;color:#aab;padding:28px 0;font-size:.85rem;text-align:
 .tag.soon{background:var(--gold);color:var(--navy);font-weight:600}
 .mgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;margin-top:22px}.mgrid b{color:var(--navy);font-family:"Playfair Display",serif;font-size:1.05rem}.mgrid b{display:block}.mgrid p{margin:4px 0 0;font-size:.92rem;color:var(--muted)}
 @media(max-width:600px){.mgrid{grid-template-columns:1fr}.mimg img{height:320px}}
+.nutrition{background:var(--cream2)}

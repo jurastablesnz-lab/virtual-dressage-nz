@@ -27,7 +27,7 @@ background:radial-gradient(900px 500px at 85% 30%,rgba(124,92,255,.35),transpare
 .hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(46,242,194,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(46,242,194,.06) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 40% 50%,#000 30%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at 40% 50%,#000 30%,transparent 75%)}
 .hero::after{content:"";position:absolute;right:-6%;bottom:-8%;width:62%;aspect-ratio:432/356;background:url(../images/brand/horse-line.svg) center/contain no-repeat;opacity:.09;pointer-events:none}
 .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}.hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1{font-size:clamp(1.7rem,3.2vw,2.75rem);max-width:15em}.hero h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero p{font-size:1.15rem;color:#C9D0E0;max-width:34em}.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
 .hero-mark{width:120px;height:120px;border-radius:28px;margin-bottom:22px;box-shadow:0 0 0 1px rgba(46,242,194,.35),0 0 60px rgba(46,242,194,.25),0 20px 40px rgba(0,0,0,.5)}
 .tagline{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
@@ -35,8 +35,12 @@ background:radial-gradient(900px 500px at 85% 30%,rgba(124,92,255,.35),transpare
 .tagline span:nth-child(n+3){color:#B9A8FF;background:rgba(124,92,255,.1);border-color:rgba(124,92,255,.4)}
 /* phone */
 .phone{border-radius:48px;padding:11px;background:linear-gradient(160deg,#3A4566,#141A2E 40%,#0B1020);box-shadow:0 0 0 1px rgba(255,255,255,.12),inset 0 0 0 2px rgba(255,255,255,.05),0 30px 80px rgba(0,0,0,.55),0 0 80px rgba(124,92,255,.18);width:100%;max-width:300px;margin:auto;position:relative}
+.phone picture{display:block}
 .phone img{display:block;width:100%;box-sizing:content-box;padding-top:30px;background:#0B1020;aspect-ratio:390/844;object-fit:cover;object-position:top;border-radius:38px}
+.phone.shot img{height:auto;aspect-ratio:auto;object-fit:contain}
 .phone::before{content:"";position:absolute;top:19px;left:50%;transform:translateX(-50%);width:78px;height:22px;border-radius:14px;background:#000;z-index:1}
+.feature h3.subhead{margin-top:1.5rem}
+.home-note{margin-top:16px;padding:12px 16px;border-radius:14px;background:rgba(255,122,61,.1);border:1px solid rgba(255,122,61,.4);color:#F3E6DE;font-size:.95rem}
 /* cards */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .card,.plan,.faq details{background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:20px;padding:30px;backdrop-filter:blur(10px);position:relative}
@@ -89,7 +93,8 @@ ul.clean{padding:0;list-style:none;color:var(--muted);font-size:.93rem}ul.clean 
 .plan ul{padding-left:1.1em;font-size:.92rem;color:#C9D0E0}.plan li::marker{color:var(--mint)}
 .plan.featured{background:linear-gradient(160deg,rgba(46,242,194,.14),rgba(124,92,255,.18));border-color:rgba(46,242,194,.45);transform:translateY(-10px);box-shadow:0 0 60px rgba(46,242,194,.15)}
 .plan.featured .tag{background:var(--mint);color:var(--mid);border-color:var(--mint)}
-.price{font-family:Archivo;font-weight:800;font-size:1.8rem;color:#fff;margin-bottom:8px}.price small{font-size:.9rem;color:var(--muted)}
+.price{font-family:Archivo;font-weight:800;font-size:1.8rem;color:#fff;margin-bottom:8px}.price small{font-size:.9rem;color:var(--muted);font-weight:600}
+.price .or{display:block;margin-top:8px;font-family:Inter,system-ui,sans-serif;font-weight:600;font-size:.92rem;line-height:1.45;color:#C9D0E0}
 /* origin timeline */
 .chapters{position:relative;margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 .chapters::before{content:"";position:absolute;top:22px;left:4%;right:4%;height:2px;background:var(--grad)}

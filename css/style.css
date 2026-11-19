@@ -135,3 +135,16 @@ nav .logo .prod{margin-left:4px;padding:3px 9px;border-radius:999px;border:1px s
 .hero-word{display:block;height:56px;width:auto;margin:0 0 14px}
 .fword{width:min(520px,92%);border-radius:14px}
 @media(max-width:600px){.hero-word{height:42px}nav .logo .prod{font-size:.72rem;padding:2px 7px}}
+
+/* See XSalute in action */
+#in-action .in-action{display:flex;justify-content:center;align-items:center;gap:64px}
+#in-action .in-action > div:first-child{max-width:22em}
+#in-action .muted{font-size:1.15rem}
+#in-action .phone{max-width:260px;flex:none}
+#in-action .phone::before{display:none}
+#in-action .phone video{display:block;width:100%;height:auto;border-radius:38px;background:#0B1020}
+@media(max-width:860px){
+#in-action .in-action{flex-direction:column;text-align:center;gap:32px}
+#in-action .in-action > div:first-child{max-width:36em}
+#in-action .phone{max-width:200px}
+}
